@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .inp { @apply
+        py-2 px-4 w-1/2 bg-[#FBD2CB] text-pink-950 text-lg font-semibold tracking-wide placeholder:text-sm placeholder:text-white placeholder:uppercase placeholder:tracking-wide rounded-full focus:outline-none mb-6
+    }
+    .sin-inp { @apply
+        py-2 px-4 bg-[#7E5758] text-pink-950 text-lg font-semibold tracking-wide placeholder:text-sm placeholder:text-white placeholder:uppercase placeholder:tracking-wide rounded-full focus:outline-none mb-6
+    }
+    .clipPath {
+        clip-path: circle(96% at 0 47%);
+    }
+}
